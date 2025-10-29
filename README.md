@@ -18,35 +18,3 @@ This app demonstrates modern Android development best practices with a modular, 
 🔔 WorkManager integration to send hourly parking notifications
 
 ⚙️ Uses Kotlin Flows for reactive UI updates
-
-
-
-🧩 Project Structure
-com.example.parkinglot
-│
-├── data
-│   ├── repository
-│   │   └── ParkingRepositoryImpl.kt
-│
-├── domain
-│   ├── model
-│   │   ├── ParkingSpot.kt
-│   │   └── Vehicle.kt
-│   ├── repository
-│   │   └── ParkingRepository.kt
-│   └── usecase
-│       └── GetParkingStatusUseCase.kt
-│
-├── presentation
-│   ├── viewmodel
-│   │   └── ParkingViewModel.kt
-│   ├── ui
-│   │   ├── ParkingScreen.kt
-│   │   └── components
-│   │       └── ParkingBox.kt
-│
-├── worker
-│   └── ParkingStatusWorker.kt
-│
-└── di
-    └── AppModule.kt
